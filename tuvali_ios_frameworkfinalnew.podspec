@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "tuvali_ios_frameworkfinalnew"
-  s.version      = "1.0.1"
+  s.version      = "1.0.4"
   s.summary      = "A summary of your library."
   s.homepage         = 'https://www.google.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.authors           = { 'Abhishek' => 'email@example.com' }
-  s.source       = { :git => "https://github.com/abhip2565/iOS-tuvali-framework.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/abhip2565/iOS-tuvali-framework.git", :tag => "1.0.4" }
   s.platform     = :ios
-  s.ios.deployment_target = "17.4"
+  s.ios.deployment_target = "15.0"
   s.swift_version = "5.0"
   s.vendored_frameworks = "tuvali_ios_frameworkfinalnew.xcframework"
   s.requires_arc= true
