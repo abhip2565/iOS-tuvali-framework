@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "A summary of your library."
   s.homepage         = 'https://www.google.com'
-  s.license      = { :type => 'Unspecified' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.authors           = { 'Abhishek' => 'email@example.com' }
   s.source       = { :git => "https://github.com/abhip2565/iOS-tuvali-framework.git", :tag => "1.0.0" }
   s.platform     = :ios
