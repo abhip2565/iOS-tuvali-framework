@@ -6,7 +6,7 @@ let package = Package(
     products: [
         .library(
             name: "tuvali_ios_frameworkfinalmost",
-            targets: ["YourLibrary"]),
+            targets: ["tuvali_ios_frameworkfinalmost"]),
     ],
     targets: [
         .binaryTarget(
