@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "YourLibrary",
+    name: "tuvali_ios_frameworkfinalmost",
     products: [
         .library(
-            name: "YourLibrary",
+            name: "tuvali_ios_frameworkfinalmost",
             targets: ["YourLibrary"]),
     ],
     targets: [
         .binaryTarget(
             name: "YourLibrary",
-            path: "./path/to/YourLibrary.xcframework"
+            path: "https://github.com/abhip2565/iOS-tuvali-framework/tuvali_ios_frameworkfinalmost.xcframework"
         )
     ]
 )
