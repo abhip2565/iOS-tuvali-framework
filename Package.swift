@@ -10,7 +10,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "YourLibrary",
+            name: "tuvali_ios_frameworkfinalmost",
             path: "https://github.com/abhip2565/iOS-tuvali-framework/tuvali_ios_frameworkfinalmost.xcframework"
         )
     ]
